@@ -10,7 +10,7 @@ var Handlebars = internal.Register(MustNewLexer(
 	&Config{
 		Name:      "Handlebars",
 		Aliases:   []string{"handlebars"},
-		Filenames: []string{"*.handlebars"},
+		Filenames: []string{"*.handlebars", "*.hbs"},
 		MimeTypes: []string{},
 	},
 	Rules{
